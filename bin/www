@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var debug = require('debug')('cpkProxy');
+var debug = require('debug')('cpkProxyGroup2');
 var app = require('../server');
 
 app.set('port', process.env.PORT || 3000);
